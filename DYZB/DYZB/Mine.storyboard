@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FbW-CS-hY7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="a98-qn-Nff">
+            <objects>
+                <viewController id="cMc-fH-qwu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WP6-qW-ftO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hac-jB-DUT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="piF-qb-8cl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iAV-xQ-ejG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4h1-To-1Di" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1826" y="165"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="A0m-6N-M8Y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FbW-CS-hY7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="tabMineHL" selectedImage="tabMine" id="6q2-l6-GCV"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QTp-pW-xI0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cMc-fH-qwu" kind="relationship" relationship="rootViewController" id="FRh-Zh-oZH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltE-rc-pIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2068" y="238"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabMine" width="24" height="24"/>
+        <image name="tabMineHL" width="24" height="24"/>
+    </resources>
+</document>
